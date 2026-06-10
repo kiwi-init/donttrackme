@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — donttrackme</title>
+<style>
+  body { max-width: 680px; margin: 60px auto; padding: 0 24px; font-family: -apple-system, sans-serif; line-height: 1.6; color: #1d1d1f; }
+  h1 { font-size: 2rem; } h2 { margin-top: 2rem; }
+  code { background: #f5f5f7; padding: 2px 5px; border-radius: 4px; font-size: .9em; }
+  table { border-collapse: collapse; width: 100%; } td, th { border: 1px solid #d2d2d7; padding: 8px 12px; text-align: left; }
+  a { color: #0071e3; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy</h1>
+<p><strong>Effective date:</strong> 2026-06-09</p>
+<p><strong>don't track me</strong> is a Safari Web Extension that strips or masks tracking parameters from URLs. This document explains what data the extension touches, where it goes, and what it is used for.</p>
+
+<h2>What the extension processes</h2>
+<p>To do its job, the extension reads URLs of pages you visit and of links you interact with, so it can identify and remove or scramble tracking parameters such as <code>fbclid</code>, <code>gclid</code>, <code>utm_*</code>, and similar.</p>
+
+<h2>What the extension stores</h2>
+<p>The extension stores three values in your browser's local extension storage on your device:</p>
+<ul>
+  <li><strong>Mode</strong> — your choice between <em>Remove</em> and <em>Mask</em>.</li>
+  <li><strong>Enabled</strong> — whether the extension is currently active.</li>
+  <li><strong>Counter</strong> — how many tracking parameters have been neutralized.</li>
+</ul>
+<p>This data never leaves your device.</p>
+
+<h2>What the extension does not do</h2>
+<ul>
+  <li>Does not collect, transmit, or sell any data.</li>
+  <li>Does not contact any server.</li>
+  <li>Does not use analytics, telemetry, or crash reporting.</li>
+  <li>Does not require an account or sign-in.</li>
+  <li>Does not read page content beyond URLs.</li>
+  <li>Does not track you across sites.</li>
+</ul>
+
+<h2>Permissions</h2>
+<table>
+  <tr><th>Permission</th><th>Purpose</th></tr>
+  <tr><td><code>storage</code></td><td>Persist your mode preference and the counter on your device.</td></tr>
+  <tr><td>Access to all websites</td><td>Required so the content script can read and rewrite URLs on any site you visit.</td></tr>
+</table>
+
+<h2>Third parties</h2>
+<p>There are none. No SDKs, no analytics frameworks, no advertising integrations.</p>
+
+<h2>Children's privacy</h2>
+<p>The extension does not collect any personal information from anyone, including children.</p>
+
+<h2>Changes to this policy</h2>
+<p>If this policy ever changes, the new version will be published here and the effective date above will be updated.</p>
+
+<h2>Contact</h2>
+<p>For questions, open an issue at <a href="https://github.com/kiwi-init/donttrackme/issues">github.com/kiwi-init/donttrackme/issues</a>.</p>
+</body>
+</html>

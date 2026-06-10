@@ -1,0 +1,25 @@
+# Xcode user-specific files
+**/xcuserdata/
+**/*.xcuserstate
+**/*.xcuserdatad/
+
+# Build output
+build/
+DerivedData/
+
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.swiftpm/
+.build/
+Packages/
+Package.resolved
+
+# CocoaPods (just in case)
+Pods/
+
+# Fastlane
+fastlane/report.xml
+fastlane/screenshots
+fastlane/test_output

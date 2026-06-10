@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "entries": [
+    {
+      "fingerprint": "162902ac607bdde5",
+      "rule_id": "hygiene.debug-console",
+      "text": "content.js logged the cleaned URL into every page's console on each navigation (console.log \"[donttrackme] content cleaned:\", result.url). Real privacy nit per the SPLUS.md contract; removed.",
+      "scope": "fingerprint",
+      "signal": "accepted",
+      "at": "2026-06-09T17:53:16.334Z"
+    },
+    {
+      "fingerprint": "8280af31ca5c3635",
+      "rule_id": "maintainability.cognitive-complexity",
+      "text": "maintainability.cognitive-complexity High cognitive complexity New function with high cognitive complexity 16 (new function). Consider extracting helpers or reducing nesting to keep it reviewable. (Maintainability signal, not a bug.)",
+      "scope": "fingerprint",
+      "signal": "dismissed",
+      "at": "2026-06-09T17:53:17.897Z"
+    }
+  ]
+}

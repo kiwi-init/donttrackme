@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "donttrackme",
+        "description": "The display name for the extension."
+    },
+    "extension_description": {
+        "message": "Strips tracking parameters (gclid, fbclid, utm_*) from URLs so ad networks can't follow you across the web.",
+        "description": "Description of what the extension does."
+    }
+}
